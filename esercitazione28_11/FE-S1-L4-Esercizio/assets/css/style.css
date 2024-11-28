@@ -1,0 +1,59 @@
+
+html {font-size: 62,5%;}  
+body {background-repeat: repeat;
+background-image: url(sfondo.png);
+font-family: "Poppins", sans-serif;
+font: optional;
+line-height: 200%;}
+header {display: block; 
+    -webkit-box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+-moz-box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+ box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+    background: rgb(17,89,106);
+    background: linear-gradient(360deg, rgba(17,89,106,1) 0%, rgba(9,164,186,1) 100%);
+    text-transform: uppercase;
+    padding: 3em;
+    text-align: center;
+    margin: 1em;}
+    a {color: rgb(244, 243, 243);}
+    header p {color: rgb(244, 243, 243);}
+    header img {padding: 2em;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;}
+article {background-color: white;
+padding: 1em;
+margin: 1em;
+-webkit-box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+-moz-box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);}
+    article h1 {font-weight: bold; font-size: 2.5em;padding: 1em;}
+    article strong {color: purple;}
+#grigio {color: rgb(190, 186, 186);}
+p {padding: 1em;}
+h2 {padding: 1em;}
+aside {background-color: white;
+    padding: 1em;
+    margin: 1em;
+    -webkit-box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+    -moz-box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+    box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);}
+    footer {display: block; 
+        -webkit-box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+    -moz-box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+     box-shadow: 0px 2px 6px 1px rgba(156,156,156,1);
+        background: rgb(17,89,106);
+        background: linear-gradient(360deg, rgba(17,89,106,1) 0%, rgba(9,164,186,1) 100%);
+        padding: 3em;
+        margin: 1em;}
+.cerchio {list-style: disc;
+list-style-position: inside;}
+code{
+    background-color: rgb(199, 199, 199);
+border: 2px solid rgb(53, 53, 53);
+border-radius: 10%;}
+table {padding: 1em;
+border-collapse: collapse;
+;}
+thead {background-color: rgb(11, 148, 211);}
