@@ -14,10 +14,9 @@ else if (numero2 > numero1) {
   /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
-
-for ( let x = 1; x <= 10; x++) {
-  if (x === 5)
-   { console.log ("not equal")} 
+let num3 = 5
+if ( num3 > 5 || num3 < 5) {
+   { console.log (num3 + "not equal")} 
 }
 
 /* ESERCIZIO 3
@@ -52,14 +51,16 @@ else if (w + e === 8) {
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-let totalShoppingCart1 = 51;
+let totalShoppingCart1 ;
+let spedizione = 4
+let cart = 50
 
-if (totalShoppingCart1 > 50){
-  console.log ("Hai diritto alla spedizione gratuita!")
+if (cart > 50){
+  totalShoppingCart = cart
 }
-else if (totalShoppingCart1 < 50){
-  console.log("Devi aggiungere 4,50 $ di spedizione")
+else if (cart < 50){ totalShoppingCart = cart + spedizione;
 }
+console.log("Aggiunto costo di spedizione")
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -67,8 +68,8 @@ else if (totalShoppingCart1 < 50){
 */
 
 let percentuale = 20;
-let totalShoppingCart =(percentuale / 100) * totalShoppingCart1;
-console.log("carrello scontato")
+let totalShoppingCart =(percentuale / 100) * cart;
+console.log(totalShoppingCart = "carrello scontato")
  if (totalShoppingCart < 50){
   console.log("Devi aggiungere 4,50 $ di spedizione")
  }
@@ -118,14 +119,13 @@ if (numero % 2 === 0) {
 */
 
 let val = 7
-  if (val < 10) {
+  if (val < 5) {
       console.log("Meno di 10");
-    } else if (val < 5) {
+    } else if (val < 10) {
       console.log("Meno di 5");
-    } else if(val >= 10)
-    {
+    } 
       console.log("Uguale a 10 o maggiore");
-    }
+    
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -152,7 +152,9 @@ delete me.lastName
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-
+me.skills.pop {
+  console.log
+}
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
