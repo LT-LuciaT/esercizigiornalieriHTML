@@ -2,9 +2,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body {
-    text-align: center;
-}
+
 
 .container {
     background-color: bisque;
@@ -39,5 +37,6 @@ button:hover {
      margin-bottom: 1em;
      background-color: #ac7c39;
      border-radius: 25px;
+    
 
 }
