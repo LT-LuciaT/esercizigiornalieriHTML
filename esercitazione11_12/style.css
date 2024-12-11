@@ -1,0 +1,43 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    background-color: bisque;
+    padding: 1em;
+    border-radius: 25px;
+
+}
+#task-input {
+    
+    font-style: italic;
+}
+button {
+    padding: 7px 10px;
+    font-size: 16px;
+    background-color: #ac7c39;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #472110;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+.task {
+     padding: 1em;
+     margin-bottom: 1em;
+     background-color: #ac7c39;
+     border-radius: 25px;
+
+}
